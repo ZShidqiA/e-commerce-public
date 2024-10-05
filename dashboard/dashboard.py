@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Memuat DataFrame yang sudah kamu buat sebelumnya
-merged_data = pd.read_csv('all_data.csv')  # Ganti dengan path file yang sesuai jika perlu
+merged_data = pd.read_csv('dashboard/all_data.csv')  # Ganti dengan path file yang sesuai jika perlu
 
 # Judul Dashboard
 st.title("Dashboard E-commerce")
